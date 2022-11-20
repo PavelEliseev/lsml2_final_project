@@ -19,6 +19,7 @@ I take optimal parametres for fine tuning:
 - batch size: 8, 4
 - lr: 3e-5
 - optimizer: Adamw
+
 I used different batch size, because of collab gpu memmory limit, but on this parametres we already have 0.93 accuracy
 link: https://arxiv.org/pdf/1810.04805.pdf (A.3)
 
