@@ -14,11 +14,11 @@ This is a dataset for binary sentiment classification containing substantially m
 
 I used BERT model for fine-tuning: https://huggingface.co/bert-base-uncased
 
-I take optimal parametres for fine tuning
-  epochs : 2
-  batch size: 8, 4
-  lr: 3e-5
-  optimizer: Adamw
+I take optimal parametres for fine tuning:
+- epochs : 2
+- batch size: 8, 4
+- lr: 3e-5
+- optimizer: Adamw
 I used different batch size, because of collab gpu memmory limit, but on this parametres we already have 0.93 accuracy
 link: https://arxiv.org/pdf/1810.04805.pdf (A.3)
 
@@ -63,15 +63,12 @@ It depends of text you submited.
 
 # Result points:
 From list fo cretaria we have:
-  1. Design document and dataset description - 1 point max
-  2. Model training code - 2 points max
-    2.1. Jupyter Notebook - 1 point
-  3. Dockerfile - 6 points max
-    3.1. docker-compose for full architecture
-      3.1.1. synchronous projects - 1 point
-    3.2. client
-      3.2.1. REST API / Telegram Bot - 1 point
-    3.3. model
-      3.3.1. transfer learning - 1 point
+- 1. Design document and dataset description - 1 point max
+- 2. Model training code - 2 points max
+  - 2.1. Jupyter Notebook - 1 point
+- 3. Dockerfile - 6 points max
+  - 3.1. synchronous projects - 1 point
+  - 3.2. REST API / Telegram Bot - 1 point
+   - 3.3. model transfer learning - 1 point
 
 I made these points
