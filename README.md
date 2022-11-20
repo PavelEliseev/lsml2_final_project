@@ -20,7 +20,7 @@ I take optimal parametres for fine tuning:
 - lr: 3e-5
 - optimizer: Adamw
 
-I used different batch size, because of collab gpu memmory limit, but on this parametres we already have 0.93 accuracy
+I used different batch size, because of collab gpu memmory limit, but on this parametres we already have 0.94 accuracy
 link: https://arxiv.org/pdf/1810.04805.pdf (A.3)
 
 The data folder includes all reqired .py files and .ipynb file with fine-tuning proccedure (stored as model.bin, so you don't need to train it again)
