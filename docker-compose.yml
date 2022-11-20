@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+   web:
+      restart: always
+      build: ./data
+      container_name: flask-sent-analyse
+      hostname: flask-sent-analyse
+      ports:
+         - "5000:5000"
+      volumes:
+         - .:/data
